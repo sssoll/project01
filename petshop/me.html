@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>me_CottieShop</title>
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="images/cropped-favicon-32x32.png">
+
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans+KR:wght@300;500;900&display=swap" rel="stylesheet">
+
+    <!--css-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--js-->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/style.js"></script>
+</head>
+<body>
+
+    <header class="header-wrapper">
+        <div class="inner">
+            <h1 class="logo">
+                <a href="#" title="꼬띠샵">
+                    <img src="images/LOGO.png" alt="꼬띠샵 로고">
+                </a>
+            </h1>
+
+            <div class="gnb-wrapper">
+                <nav class="gnb">
+                    <ul class="mainmenu-list">
+                        <li>
+                            <a href="#" lang="en">Brands</a>
+                            <ul class="submenu-list">                                
+                                <li><a href="#"><span>펫 소 시크</span></a></li>
+                                <li><a href="#"><span>맥스본</span></a></li>
+                                <li><a href="#"><span>밀크 앤 페퍼</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" lang="en">Outdoor</a>
+                            <ul class="submenu-list">                                
+                                <li><a href="#"><span>스웨터</span></a></li>
+                                <li><a href="#"><span>패딩자켓</span></a></li>
+                                <li><a href="#"><span>후드</span></a></li>
+                                <li><a href="#"><span>레인코트</span></a></li>
+                                <li><a href="#"><span>여름의류</span></a></li>
+                                <li><a href="#"><span>불독전용</span></a></li>
+                                <li><a href="#"><span>액세서리</span></a></li>
+                                <li><a href="#"><span>목줄</span></a></li>
+                                <li><a href="#"><span>리드줄</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" lang="en">Indoor</a>
+                            <ul class="submenu-list">                                
+                                <li><a href="#"><span>리빙</span></a></li>
+                                <li><a href="#"><span>장난감</span></a></li>
+                                <li><a href="#"><span>고양이</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" lang="en">Cotielog</a>
+                        </li>
+                        <li>
+                            <a href="#" lang="en">Store</a>
+                        </li>
+                    </ul>
+
+                    <div class="menu-active-ball">
+                        <span></span>
+                    </div>
+                </nav>
+
+                <div class="search-btn">
+                    <a href="#"><span class="ir">검색창 열기 버튼</span></a>
+                </div>
+
+                <a href="#" lang="en" class="shop-link">
+                    Buy Shop
+                </a>
+
+                <div class="mobile-menu-btn">
+                    <span class="ir">모바일 메뉴 버튼 열기</span>
+                    <span class="line01"></span>
+                    <span class="line02"></span>
+                </div>
+                
+            </div><!--gnb-->
+
+            <div class="search-wrapper">
+                <div class="layer-img-wrapper">
+                    <span class="ir">트월킹 강아지 이미지</span>
+                </div>
+                <div class="search-inner">
+                    <div class="form-wrapper">
+                        <form action="#" method="get">
+                            <input type="text" class="search" placeholder="검색어를 입력해주세요">
+                            <button class="submit-btn btn-hover">
+                                <span class="ir">검색하기 버튼</span>
+                            </button>
+                        </form>
+
+                        <div class="tag-wrapper">
+                            <ul>
+                                <li><a href="#" class="btn-hover">#겨울</a></li>
+                                <li><a href="#" class="btn-hover">#패딩</a></li>
+                                <li><a href="#" class="btn-hover">#하네스</a></li>
+                                <li><a href="#" class="btn-hover">#후드</a></li>
+                                <li><a href="#" class="btn-hover">#장난감</a></li>
+                            </ul>
+                        </div><!--tag wrapper-->
+
+                        <button class="close-btn more-focus">
+                            <span class="ir">검색창 닫기 버튼</span>
+                        </button>
+                        
+                    </div><!--form wrapper-->                    
+                </div>
+            </div><!--search-->
+
+        </div><!--inner-->
+    </header>
+    
+    <nav class="mobile-gnb">
+        <div class="mobile-gnb-inner">
+            <button class="mobile-close-btn">
+                <span class="ir">모바일 메뉴 닫기 버튼</span>
+            </button>
+
+            <ul>
+                <li><a href="#" lang="en">Brands</a></li>
+                <li><a href="#" lang="en">Outdoor</a></li>
+                <li><a href="#" lang="en">Indoor</a></li>
+                <li><a href="#" lang="en">Cotielog</a></li>
+                <li><a href="#" lang="en">Store</a></li>
+                <li><a href="#" lang="en">About Us</a></li>
+            </ul>
+
+            <a href="#" class="shop-btn" lang="en">Buy Shop</a>
+            
+        </div>
+    </nav><!--mobile gnb-->
+
+    <div class="container-wrapper">
+        <section class="visual-wrapper load-ani">
+            <h2 class="visual-title" lang="en">
+                Every Pet Deserves<br>
+                The Best
+            </h2>
+            <div class="visual">
+                <div class="visual-inner">
+                    <img src="images/visual.gif" alt="꼬띠샵 메인 이미지">
+                </div>
+            </div><!--visual-->
+            
+            <div class="more-wrapper">
+                <p class="visual-text">
+                    가치있는 우리는 사랑받기 충분합니다.<br>
+                    값진 소재와 세련된 디자인을 함께 즐기고 만족할 수 있습니다.
+                </p>
+                <a href="#" lang="en" class="more-btn more-focus">
+                    Discover more
+                </a>
+            </div><!--more wrap-->
+
+            <span class="layer-img visual-layer01"></span>
+            <span class="layer-img visual-layer02"></span>
+            <span class="layer-img visual-layer03"></span>
+
+        </section><!--visual wrap-->
+
+        <section class="brands-wrapper load-ani">
+            <span class="layer-img brands-img"></span>
+
+            <h2 class="content-title" lang="en">Brands</h2>
+
+            <div class="brand-content so-chic">
+                <div class="brand-visual">
+                    <img src="images/sochic.gif" alt="소시크 이미지">
+                </div>
+                <div class="brand-text-wrapper">
+                    <h3 class="content-sub-title">
+                        <img src="images/logo-petsoshic.svg" alt="펫 소 시크">
+                    </h3>
+                    <p class="brand-text">
+                        프랑스 파리는 파리지앵의 본고장입니다.<br>
+                        이곳에서 시작된 펫 소 시크는<br>
+                        우아함, 세련됨, 고상함을 대표하는 흠잡을 데 없는<br>
+                        스타일을 연출합니다.
+                    </p>
+                    <a href="#" lang="en" class="more-btn more-focus">Discover more</a>
+                </div>
+            </div><!--brand content-->
+
+            <div class="video-wrapper">
+                <span class="layer-img video-img01"></span>
+                <span class="layer-img video-img02"></span>
+                <span class="layer-img video-img03"></span>
+                <span class="layer-img video-img04"></span>
+                <span class="layer-img video-img05"></span>
+
+                <div class="video-inner">
+                    <video autoplay muted loop>
+                        <source src="video/video01.mp4">
+                    </video>
+                    <a href="#" class="video-focus" title="비디오 전체화면으로 보기"></a>
+                </div>
+            </div><!--video wrap-->
+
+            <div class="brand-content maxbone">
+                <div class="brand-visual">
+                    <img src="images/MAXBONE.gif" alt="맥스본 이미지">
+
+                    <span class="layer-img maxbone-img"></span>
+                    <span class="layer-img maxbone-img02"></span>
+                </div>
+                <div class="brand-text-wrapper">
+                    <h3 class="content-sub-title">
+                        <img src="images/logo-maxbone.svg" alt="맥스본">
+                    </h3>
+                    <p class="brand-text">
+                        반려동물과 내가 함께하는<br>
+                        스타일의 최종 목적지는 맥스본입니다.<br>
+                        현대적인 라이프 스타일을 반영하고 재미와 기능을<br>
+                        같이 생각합니다.
+                    </p>
+                    <a href="#" lang="en" class="more-btn more-focus">Discover more</a>
+                </div>
+                
+            </div><!--maxbone content-->
+
+            <div class="maxbone-video-wrapper load-ani">
+                <div class="video-inner">
+                    <video autoplay muted loop>
+                        <source src="video/video02.mp4">
+                    </video>
+                    <a href="#" class="video-focus" title="비디오 전체화면으로 보기"></a>
+                </div>
+                
+                <div class="maxbone-ani">
+                    <span class="layer-img maxbone-ani-img01"></span>
+                    <span class="layer-img maxbone-ani-img02"></span>
+                    <span class="layer-img maxbone-ani-img03"></span>
+                </div>
+                <span class="layer-img maxbone-img01"></span>
+            </div><!--maxbone video-->
+            
+
+            <div class="brand-content milk load-ani">
+                <div class="brand-visual">
+                    <img src="images/milk-visual.jpg" alt="밀크 이미지">
+                </div>
+                <div class="brand-text-wrapper">
+                    <h3 class="content-sub-title">
+                        <img src="images/logo-milkpepper.svg" alt="밀크페퍼">
+                    </h3>
+                    <p class="brand-text">
+                        일년 내내 우아할 수 있는<br>
+                        밀크&페퍼는 세련되고 독창적입니다.<br>
+                        계절마다 제안하는 상상력과 영감은 최적의<br>
+                        스타일리쉬를 제공합니다.
+                    </p>
+                    <a href="#" lang="en" class="more-btn more-focus">Discover more</a>
+                </div>                
+                <span class="layer-img milk-img01"></span>
+                <span class="layer-img milk-img02"></span>
+            </div><!--milk content-->
+
+        </section><!--brands wrap-->
+
+
+        <section class="new-wrapper load-ani">
+            <h2 class="content-title" lang="en">New</h2>
+
+            <div class="new-item-slider">
+                <ul>
+                    <li>
+                        <a href="#" class="hover-item">
+                            <div class="new-item-thum">
+                                <img src="images/item01.jpg" alt="아이템1">
+                            </div>
+                            <div class="new-item-hover">
+                                <img src="images/item01-hover.jpg" alt="아이템1">
+                            </div>
+                            <h3 class="item-brand" lang="en">MILK & PEPPER</h3>
+                            <p class="item-name">
+                                밀크 앤 패퍼 ANCHOR Red Bandana(앙코르 레드 반다나)<!--영문을 span으로 묶어서 lang=en 바꿔도 됨-->
+                            </p>
+                        </a>
+                    </li><!--item01-->
+                    <li>
+                        <a href="#" class="hover-item">
+                            <div class="new-item-thum">
+                                <img src="images/item16.jpg" alt="아이템1">
+                            </div>
+                            <div class="new-item-hover">
+                                <img src="images/item16-hover.jpg" alt="아이템1">
+                            </div>
+                            <h3 class="item-brand" lang="en">MILK & PEPPER</h3>
+                            <p class="item-name">
+                                밀크 앤 패퍼 ANCHOR Red Bandana(앙코르 레드 반다나)<!--영문을 span으로 묶어서 lang=en 바꿔도 됨-->
+                            </p>
+                        </a>
+                    </li><!--item02-->
+                    <li>
+                        <a href="#" class="hover-item">
+                            <div class="new-item-thum">
+                                <img src="images/item03.jpg" alt="아이템1">
+                            </div>
+                            <div class="new-item-hover">
+                                <img src="images/item03-hover.jpg" alt="아이템1">
+                            </div>
+                            <h3 class="item-brand" lang="en">MILK & PEPPER</h3>
+                            <p class="item-name">
+                                밀크 앤 패퍼 ANCHOR Red Bandana(앙코르 레드 반다나)<!--영문을 span으로 묶어서 lang=en 바꿔도 됨-->
+                            </p>
+                        </a>
+                    </li><!--item03-->
+                    <li>
+                        <a href="#" class="hover-item">
+                            <div class="new-item-thum">
+                                <img src="images/item04.jpg" alt="아이템1">
+                            </div>
+                            <div class="new-item-hover">
+                                <img src="images/item04-hover.jpg" alt="아이템1">
+                            </div>
+                            <h3 class="item-brand" lang="en">MILK & PEPPER</h3>
+                            <p class="item-name">
+                                밀크 앤 패퍼 ANCHOR Red Bandana(앙코르 레드 반다나)<!--영문을 span으로 묶어서 lang=en 바꿔도 됨-->
+                            </p>
+                        </a>
+                    </li><!--item04-->
+                    <li>
+                        <a href="#" class="hover-item">
+                            <div class="new-item-thum">
+                                <img src="images/item05.jpg" alt="아이템1">
+                            </div>
+                            <div class="new-item-hover">
+                                <img src="images/item05-hover.jpg" alt="아이템1">
+                            </div>
+                            <h3 class="item-brand" lang="en">MILK & PEPPER</h3>
+                            <p class="item-name">
+                                밀크 앤 패퍼 ANCHOR Red Bandana(앙코르 레드 반다나)<!--영문을 span으로 묶어서 lang=en 바꿔도 됨-->
+                            </p>
+                        </a>
+                    </li><!--item05-->
+                    <li>
+                        <a href="#" class="hover-item">
+                            <div class="new-item-thum">
+                                <img src="images/item06.jpg" alt="아이템1">
+                            </div>
+                            <div class="new-item-hover">
+                                <img src="images/item06-hover.jpg" alt="아이템1">
+                            </div>
+                            <h3 class="item-brand" lang="en">MILK & PEPPER</h3>
+                            <p class="item-name">
+                                밀크 앤 패퍼 ANCHOR Red Bandana(앙코르 레드 반다나)<!--영문을 span으로 묶어서 lang=en 바꿔도 됨-->
+                                밀크 앤 패퍼 ANCHOR Red Bandana(앙코르 레드 반다나)<!--영문을 span으로 묶어서 lang=en 바꿔도 됨-->
+
+                            </p>
+                        </a>
+                    </li><!--item06-->
+                    <li>
+                        <a href="#" class="hover-item">
+                            <div class="new-item-thum">
+                                <img src="images/item07.jpg" alt="아이템1">
+                            </div>
+                            <div class="new-item-hover">
+                                <img src="images/item07-hover.jpg" alt="아이템1">
+                            </div>
+                            <h3 class="item-brand" lang="en">MILK & PEPPER</h3>
+                            <p class="item-name">
+                                밀크 앤 패퍼 ANCHOR Red Bandana(앙코르 레드 반다나)<!--영문을 span으로 묶어서 lang=en 바꿔도 됨-->
+                            </p>
+                        </a>
+                    </li><!--item07-->
+                    <li>
+                        <a href="#" class="hover-item">
+                            <div class="new-item-thum">
+                                <img src="images/item08.jpg" alt="아이템1">
+                            </div>
+                            <div class="new-item-hover">
+                                <img src="images/item08-hover.jpg" alt="아이템1">
+                            </div>
+                            <h3 class="item-brand" lang="en">MILK & PEPPER</h3>
+                            <p class="item-name">
+                                밀크 앤 패퍼 ANCHOR Red Bandana(앙코르 레드 반다나)<!--영문을 span으로 묶어서 lang=en 바꿔도 됨-->
+                            </p>
+                        </a>
+                    </li><!--item08-->
+                </ul>
+            </div><!--newitem slider-->
+
+            <div class="new-item-nav">
+                <div class="new-item-page">
+                    <span class="current-page" lang="en"></span>
+                    <span class="page-slash" lang="en">/</span>
+                    <span class="total-page" lang="en"></span>
+                </div>
+
+                <div class="page-arrows">
+                    <button class="new-prev-arrow">
+                        <span class="ir">이전 슬라이드 보기</span>
+                    </button>
+                    <button class="new-next-arrow">
+                        <span class="ir">다음 슬라이드 보기</span>
+                    </button>
+                </div>
+            </div><!--new-item nav-->
+        </section><!--new-->
+
+        <div class="brand-text-maq">
+            <p class="text-banner">
+                <span lang="en">PET SO CHICK</span>
+                <span lang="en">MAXBONE</span>
+                <span lang="en">MILK & PEPPER</span>
+                <span lang="en">PET SO CHICK</span>
+                <span lang="en">MAXBONE</span>
+                <span lang="en">MILK & PEPPER</span>
+            </p>
+            <p class="text-banner">
+                <span lang="en">PET SO CHICK</span>
+                <span lang="en">MAXBONE</span>
+                <span lang="en">MILK & PEPPER</span>
+                <span lang="en">PET SO CHICK</span>
+                <span lang="en">MAXBONE</span>
+                <span lang="en">MILK & PEPPER</span>
+            </p>
+        </div>
+        
+        <section class="cotielog-wrapper">
+            <h2 class="content-title" lang="en">Cotielog</h2>
+
+            <ul class="cotie-gallery">
+                <li>
+                    <div class="cotie-gallery-img">
+                        <img src="images/notice01.jpg" alt="코티로그 사진1">
+                    </div>
+                    <h3 class="cotie-title">[밀크 앤 페퍼] 불독 전용 사이즈</h3>
+                </li>
+                <li>
+                    <div class="cotie-gallery-img">
+                        <img src="images/notice03.png" alt="코티로그 사진1">
+                    </div>
+                    <h3 class="cotie-title">2022년 3월 배송 안내</h3>
+                </li>
+                <li>
+                    <div class="cotie-gallery-img">
+                        <img src="images/notice04.jpg" alt="코티로그 사진1">
+                    </div>
+                    <h3 class="cotie-title">2022.02 우수 리뷰 고객 캐리커쳐</h3>
+                </li>
+                <li>
+                    <div class="cotie-gallery-img">
+                        <img src="images/notice05.png" alt="코티로그 사진1">
+                    </div>
+                    <h3 class="cotie-title">2021 GDWEB 디자인 어워즈 GRAND PRIZE 수상🎉</h3>
+                </li>
+            </ul>
+
+            <a href="#" lang="en" class="more-btn more-focus">more</a>
+
+        </section><!--cotielog-wrap-->
+
+        <section class="sns-wrapper">
+            <h2 class="content-title" lang="en">Instagram<br>@coite_shop</h2>
+
+            <ul class="sns-list">
+                <li>
+                    <a href="#" class="sns-hover"><img src="images/insta02.jpg" alt="인스타그램 이미지"></a>
+                    
+                </li>
+                <li>
+                    <a href="#" class="sns-hover"><img src="images/insta04.jpg" alt="인스타그램 이미지"></a>
+                    
+                </li>
+                <li>
+                    <a href="#" class="sns-hover"><img src="images/insta08.jpg" alt="인스타그램 이미지"></a>
+                    
+                </li>
+                <li>
+                    <a href="#" class="sns-hover"><img src="images/insta11.jpg" alt="인스타그램 이미지"></a>
+                    
+                </li>
+            </ul>
+        </section><!--sns wrap-->
+    </div><!--container-->
+
+    <footer class="footer-wrapper">
+        <a href="#" class="top-btn">
+            <i class='bx bx-chevron-up'></i>
+            <span class="top-btn-text" lang="en">top</span>
+            <div class="top-btn-layer">
+                <span></span>
+            </div>
+        </a><!--top btn-->
+
+        <div class="footer-layer"></div>
+
+        <div class="footer-inner">
+            <div class="footer-menu-wrapper">
+                <ul class="footer-menu">
+                    <li><a href="#" lang="en">About Us</a></li>
+                    <li><a href="#" lang="en">Buy Shop</a></li>
+                </ul>
+
+                <ul class="footer-sns-menu">
+                    <li class="facebook">
+                        <a href="#"  lang="en">
+                            <span lang="en">facebook</span>
+                            <i class='bx bxl-facebook bx-border-circle'></i>
+                        </a>
+                    </li>
+                    <li class="insta">
+                        <a href="#"  lang="en">
+                            <span lang="en">instagram</span>
+                            <i class='bx bxl-instagram bx-border-circle' ></i>
+                        </a>
+                    </li>
+                    <li class="kakaoch">
+                        <a href="#" lang="en">
+                            <span class="ir">카카오톡 채널 추가</span>
+                        </a>
+                    </li>
+                </ul>
+            </div><!--footer menu-->
+
+            <div class="footer-info-wrapper">
+                <button class="footer-info-btn" lang="en">
+                    Cotieshop
+                    <span></span>
+                </button><!--버튼안에 인라인요소 가능-->
+
+                <div class="footer-text">
+                    <p><span>주식회사 델핀 서울특별시 용산구 우사단로2길 1, 3층</span> 
+                        <span>대표 : 신승호</span>
+                        <span>사업자 등록번호 : <span lang="en">113-86-83830</span></span>
+                    </p>
+
+                    <p>
+                        <span lang="en">04413</span>
+                        <span>서울특별시 용산구 우사단로2길 1 (보광동) </span>
+                        <span lang="en">TEL : 02-2678-3096~7</span>
+                        <span lang="en">FAX : 02-2678-3099</span>
+                    </p>
+                    
+                </div><!--foote text-->
+
+                <p class="copy" lang="en">Copyright 2021. Cotieshop All rights reserved.</p>
+            </div><!--footer info-->
+        </div><!--inner-->
+    </footer>
+
+</body>
+</html>
